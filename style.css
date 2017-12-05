@@ -1,0 +1,181 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+}
+.jumbotron{
+	background:linear-gradient(to bottom, #bfbfbf 0%, #ffcccc 100%);
+	padding-bottom:5%;
+	padding-top: 5%;
+	height: 800px;
+	
+}
+.card1{
+	align-items: center;
+	width: 30%;
+	height:95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.card2{
+	position:absolute;
+	width:35%;
+	min-height:85%;
+	text-align: center;
+	margin-left: auto;
+	top:15%;
+	right: 40%;
+}
+.product{
+	max-width:50%;
+	margin-top: -9%;
+	margin-left: 6%;
+}
+h3{
+	font-family: monospace;
+	letter-spacing:2px;
+	font-size: 18px;
+	font-weight: 100;
+	margin-top: -10%;
+}
+.fa-arrow-left{
+	color: #fff;
+	padding: 40%;
+	font-size:16px; 
+	padding-right: 10px;
+	margin-right: 10px;
+}
+.badge-pill{
+	margin-left: -110%;
+	margin-top: 10%;
+}
+.logo{
+	width: 50px;
+}
+.details{
+	padding-top: 10px;
+	font-size: 10px;
+	color:darkgrey;
+	font-family: monospace;
+}
+.rating{
+	font-family:sans-serif;
+}
+.rating h4{
+	padding-top: 20px;
+	font-size: 12px;
+	font-family:sans-serif;
+}
+.qty{
+	font-weight: 600;
+}
+.fa-minus-circle{
+	font-size: 16px;
+	color:lightgrey;
+	padding-right: 10px;
+}
+.fa-plus-circle{
+	font-size: 16px;
+	color: lightgrey;
+}
+.fig{
+	color: darkgrey;
+	font-size: 16px;
+	font-weight: 600;
+	padding-right: 10px;
+}
+.color{
+	padding-top: 20px;
+	font-size: 12px;
+	font-weight: 600;
+	font-family: sans-serif;
+}
+.ul-color{
+}
+.ul-color li{
+	list-style:none;
+	float: left;
+}
+.ul-color li a{
+	padding: 10px 10px 10px 10px;
+	display:inline-block;
+	border-radius: 100%;
+	width: 5%;
+	height: 5%;
+}
+.ul-color li a.red{
+	background-color:sandybrown;
+	position:absolute;
+	top: 50px;
+	left: 40px;
+	padding-right: 10px;
+}
+.ul-color li a.orange{
+	background-color:gold;
+	width: 10%;
+	height: 10%;
+	border:1px solid #ff9414;
+	position: absolute;
+	left: 65px;
+	top: 50px;
+}
+.ul-color li a.yellow{
+	background-color:goldenrod;
+	position: absolute;
+	left: 90px;
+	top: 50px;
+}
+.ul-color li a.green{
+	position: absolute;
+	left: 40px;
+	top: 75px;
+	background-color:cyan;
+}
+.ul-color li a.blue{
+	position: absolute;
+	left: 65px;
+	top: 75px;
+	background-color:lightblue;
+}
+.ul-color li a.purple{
+	position: absolute;
+	left: 90px;
+	top: 75px;
+	background-color:royalblue;
+}
+.size{
+	font-size: 12px;
+	font-weight: 600;
+	padding-top: 20px;
+	font-family: sans-serif;
+	
+}
+.fig2{
+	font-size: 14px;
+	padding-right: 8px;
+}
+.card-footer{
+	border: none;
+	background-color:transparent;
+}
+.btn-warning{
+	position: absolute;
+	top: 98%;
+	left:40%;
+	width: 50%;
+	border-radius: 40px;
+	color: #fff;
+	font-weight: 700;
+	font-family: monospace;
+}
+/*@media only screen and (max-width=575px){	
+	.jumbotron{
+		height:100%; 
+	}
+	.card1{
+		height: 100%;
+	}
+	.card2{
+		min-height:85%;
+	}
+	
+}*/
